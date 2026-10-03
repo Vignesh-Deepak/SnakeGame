@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-wrap">
+    <p id="score" class="score">Score: 0</p>
+    <div class="canvas-wrap">
+      <canvas id="game" width="480" height="480" aria-label="Snake game board"></canvas>
+      <div id="overlay" class="overlay" role="status" aria-live="polite">
+        <p class="overlay-title">Snake</p>
+        <p id="overlay-message" class="overlay-message">Press Enter to start</p>
+      </div>
+    </div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
